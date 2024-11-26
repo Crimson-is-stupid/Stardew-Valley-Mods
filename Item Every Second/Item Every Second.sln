@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Item Every Second", "Item Every Second.csproj", "{A38FEFF9-4BEF-42B7-B80E-3BE6BFEBB728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integrations", "..\Integrations\Integrations.csproj", "{1F001354-72B8-405E-A5F0-EB591DE17BF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A38FEFF9-4BEF-42B7-B80E-3BE6BFEBB728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38FEFF9-4BEF-42B7-B80E-3BE6BFEBB728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38FEFF9-4BEF-42B7-B80E-3BE6BFEBB728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38FEFF9-4BEF-42B7-B80E-3BE6BFEBB728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F001354-72B8-405E-A5F0-EB591DE17BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F001354-72B8-405E-A5F0-EB591DE17BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F001354-72B8-405E-A5F0-EB591DE17BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F001354-72B8-405E-A5F0-EB591DE17BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C40EF147-5CFD-427C-86F0-1F9B4EC01E92}
+	EndGlobalSection
+EndGlobal
