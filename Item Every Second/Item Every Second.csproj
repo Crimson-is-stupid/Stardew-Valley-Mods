@@ -14,10 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Integrations\Integrations.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="MonoGame.Framework">
       <HintPath>..\..\SteamLibrary\steamapps\common\Stardew Valley\MonoGame.Framework.dll</HintPath>
     </Reference>

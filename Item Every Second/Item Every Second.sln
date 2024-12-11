@@ -5,8 +5,6 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Item Every Second", "Item Every Second.csproj", "{A38FEFF9-4BEF-42B7-B80E-3BE6BFEBB728}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integrations", "..\Integrations\Integrations.csproj", "{1F001354-72B8-405E-A5F0-EB591DE17BF2}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
