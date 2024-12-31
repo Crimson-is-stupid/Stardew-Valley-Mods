@@ -100,6 +100,7 @@ namespace Item_Every_Second
         {
             if (Context.IsWorldReady && Game1.activeClickableMenu == null && Game1.game1.IsActive)
             {
+                if (Game1.player.isInventoryFull() && Config.StopOnFullInventory) return;
                 if (Config.Time != 0f && e.IsMultipleOf((uint)(Config.Time * 60f))) {
                     GenerateItem();
                 }
@@ -155,6 +156,14 @@ namespace Item_Every_Second
                 getValue: () => Config.NoUnShipItems,
                 setValue: value => Config.NoUnShipItems = value,
                 tooltip: () => "Makes it so you don't get Unshippable items"
+            );
+
+            configMenu.AddBoolOption(
+                mod: ModManifest,
+                name: () => "Stop On Full Inventory",
+                getValue: () => Config.StopOnFullInventory,
+                setValue: value => Config.StopOnFullInventory = value,
+                tooltip: () => "When your inventory is full items will no longer spawn"
             );
 
             configMenu.AddBoolOption(

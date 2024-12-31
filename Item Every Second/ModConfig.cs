@@ -18,15 +18,9 @@ namespace Item_Every_Second
 
         public Dictionary<string, bool> AllowChances { get; set; } = new Dictionary<string, bool>();
 
-        public int RingChance { get; set; } = 1;
-
-        public int ToolChance { get; set; } = 1;
-
-        public bool CustomRingChance { get; set; } = false;
-
-        public bool CustomToolChance { get; set; } = false;
-
         public bool NoUnShipItems { get; set; } = false;
+
+        public bool StopOnFullInventory { get; set; } = false;
 
         public bool No0SellPriceItems { get; set; } = false;
 

@@ -1,10 +1,10 @@
 {
   "Name": "Item Every Second",
   "Author": "Crimson Is Stupid, AidAin21",
-  "Version": "2.1.0",
+  "Version": "2.1.1",
   "Description": "Adds an item every second",
   "UniqueID": "CrimsonIsStupid.ItemEverySecond",
   "EntryDll": "Item Every Second.dll",
-  "MinimumApiVersion": "4.1.7",
+  "MinimumApiVersion": "4.1.10",
   "UpdateKeys": [ "Nexus:29635" ]
 }
